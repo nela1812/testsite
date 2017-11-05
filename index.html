@@ -1,9 +1,35 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>My first webpage</title>
+		<link type="text/css" rel="stylesheet" href="stylesheets/main.css"
 	</head>
 	<body>
-		hello
-		this is edited
+		<header>
+			<h1> Oh well, hello there! </h1>
+			<ul>
+				<li><strong>number 1</strong></li>
+				<li><strong>number two</strong</strong></li>
+				<li><strong>number III</strong></li>
+			</ul>
+		</header>
+		<article>
+			<img src="file:///C:/Users/lenab/Desktop/coding_course/first_site/DSC09757.jpg">
+			<h3>Blabla</h1>
+			<p>Whatever, do you <em>really</em> care?</p>
+		</article>
+		<article>
+			<p> put table here </p>
+		</article>
+		<article>
+			<a href ="https://www.google.co.uk/search?q=i%27m+feeling+curious">Want to know a fun fact?</a>
+		</article>
+		<input type="email" placeholder="What's your email address?">
+		<input type="submit"> <br />
+		<script>
+			$("input").on("click", function(){
+				alert("Thank you for submitting your email address.")
+			})
+		</script>
 	</body>
 </html>
